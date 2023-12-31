@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .active {
+        @apply before:absolute before:left-0 before:top-0 before:h-[100%] before:rounded-[0_10px_10px_0] before:w-[4px] before:bg-primary2;
+    }
+}
