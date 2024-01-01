@@ -6,4 +6,8 @@
     .active {
         @apply before:absolute before:left-0 before:top-0 before:h-[100%] before:rounded-[0_10px_10px_0] before:w-[4px] before:bg-primary2;
     }
+
+    .input-control {
+        @apply outline-none text-xs placeholder:text-primary3 w-[100%] text-primary4 shadow-md border-2 bg-transparent border-[#fff] py-1 px-2 rounded-[5px];
+    }
 }

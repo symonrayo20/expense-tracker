@@ -5,29 +5,31 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
-    colors: {
-        "main": "rgba(34, 34, 96, 1)",
-        "primary1": "#222260",
-        "primary2": "rgba(34, 34, 96, .6)",
-        "primary3": "rgba(34, 34, 96, .4)",
-        "sidebar": "rgba(252, 246, 249, 0.78)",
-        "green": "#42AD00",
-        "grey": "#aaa",
-        "accent": "#F56692",
-        "delete": "#FF0000",
-        "white": "#FFFFFF"
+    extend: {
+        colors: {
+            "main": "rgba(34, 34, 96, 1)",
+            "primary1": "#222260",
+            "primary2": "rgba(34, 34, 96, .6)",
+            "primary3": "rgba(34, 34, 96, .4)",
+            "primary4": "rgba(34, 34, 96, .9)",
+            "content": "rgba(252, 246, 249, 0.78)",
+            "add": "rgb(252, 246, 249)",
+            "green": "#42AD00",
+            "grey": "#aaa",
+            "accent": "#F56692",
+            "delete": "#FF0000",
+        },
+        backgroundImage: {
+            "orb": "linear-gradient(180deg, #F56692 0%, #F2994A 100%)",
+            "home": "url('./src/img/bg.png')",
+        },
+        fontFamily: {
+            'roboto': ['Roboto', 'sans-serif'],
+        },
+        fontSize: {
+            "clamp": "0.8rem",
+        }
     },
-    backgroundImage: {
-        "orb": "linear-gradient(180deg, #F56692 0%, #F2994A 100%)",
-        "home": "url('./src/img/bg.png')",
-    },
-    fontFamily: {
-        'roboto': ['Roboto', 'sans-serif'],
-    },
-    fontSize: {
-        "clamp": "clamp(0.8rem, 1.5vw, 1rem)",
-    }
 
   },
   plugins: [],
