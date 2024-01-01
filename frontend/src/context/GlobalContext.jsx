@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { createContext, useContext, useState } from 'react'
 
-const BASE_URL = "http://localhost:5000/api/";
+const BASE_URL = "/api/";
 
 const GlobalContext = createContext();
 
@@ -11,7 +11,6 @@ export const GlobalProvider = ({children}) => {
     const [showAddIncome, setShowAddIncome] = useState(false);
     const [showAddExpense, setShowAddExpense] = useState(false);
     const [error, setError] = useState(null);
-
     
     const getIncomes = async () => {
         const res = await axios.get(`${BASE_URL}get-income`);

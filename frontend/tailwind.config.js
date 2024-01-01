@@ -17,11 +17,12 @@ export default {
             "green": "#42AD00",
             "grey": "#aaa",
             "accent": "#F56692",
+            "accent1": "#FF6692",
             "delete": "#FF0000",
         },
         backgroundImage: {
             "orb": "linear-gradient(180deg, #F56692 0%, #F2994A 100%)",
-            "home": "url('./src/img/bg.png')",
+            "home": "linear-gradient(90deg, rgba(249,237,247,1) 0%, rgba(251,240,252,1) 100%)",
         },
         fontFamily: {
             'roboto': ['Roboto', 'sans-serif'],
