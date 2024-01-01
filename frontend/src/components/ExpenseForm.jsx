@@ -69,7 +69,7 @@ const ExpenseForm = () => {
                 cols="30"
                 rows="4"
                 value={input.description}
-                name="description"
+                name="description (optional)"
                 placeholder="description"
                 onChange={(e) => setInput({...input, description: e.target.value})}
             ></textarea>
@@ -78,7 +78,7 @@ const ExpenseForm = () => {
                 <Button 
                     text="Add Expense" 
                     color="white"
-                    bg="bg-accent"
+                    bg="bg-primary2"
                     pad="px-3 py-1.5"
                     icon={plus}
                     bRad="30px"

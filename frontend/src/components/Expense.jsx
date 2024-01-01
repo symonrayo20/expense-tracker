@@ -19,7 +19,7 @@ const Expense = () => {
                 <Button 
                     text="Add Expense" 
                     color="white"
-                    bg="bg-accent"
+                    bg="bg-primary2"
                     pad="px-3 py-1.5"
                     icon={plus}
                     bRad="30px"

@@ -14,10 +14,7 @@ const Nav = () => {
                     className='w-[60px] h-[60px] rounded-full bg-white shadow-xl'
                     src={avatar} 
                     alt="avatar" />
-                <div className=''>
-                    <h2 className='text-main font-bold'>Symon</h2>
-                    <p>Your Money</p>
-                </div>
+                <h2 className='text-main font-bold'>Symon</h2>
             </div>
             
             <ul className='flex-1 '>
